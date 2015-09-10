@@ -13,7 +13,7 @@ shinyUI(fluidPage(
                    "Número de simulaciones:",
                    value = 300),
       numericInput("lambda",
-                   "Par?metro:",
+                   "Parámetro:",
                    value = 1),
       downloadButton('downloadData', 'Download')
       
