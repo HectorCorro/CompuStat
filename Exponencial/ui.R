@@ -10,7 +10,7 @@ shinyUI(fluidPage(
   sidebarLayout(
     sidebarPanel(
       numericInput("bins",
-                   "N?mero de simulaciones:",
+                   "Número de simulaciones:",
                    value = 300),
       numericInput("lambda",
                    "Par?metro:",
