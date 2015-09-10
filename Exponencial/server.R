@@ -14,7 +14,7 @@ shinyServer(function(input, output) {
     bins <- seq(min(x), max(x), length.out = input$bins + 1)
     
     # draw the histogram with the specified number of bins
-    hist(x, breaks = 20, col = 'darkgray', border = 'white')
+    hist(x, breaks = 20, col = 'orange', border = 'white')
     
     # Generate a summary of the data
     output$summary <- renderPrint({
